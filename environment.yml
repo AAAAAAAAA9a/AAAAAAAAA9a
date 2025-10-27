@@ -1,0 +1,9 @@
+name: rabbitmq-lab3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - pika>=1.3.0
